@@ -7,7 +7,12 @@ void result(char player, char computer);
 void winner();
 
 int main(){
-
+    char player;
+    char computer;
+    player = Introduction(player);
+    computer = computerChoice();
+    result(player, computer);
+    return 0;
 }
 
 char Introduction(char player) {
